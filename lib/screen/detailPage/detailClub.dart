@@ -1,5 +1,4 @@
 import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:soccer_app/utilities/screenSize/screenSize.dart';
 import 'package:url_launcher/url_launcher.dart' as launcher;
@@ -22,8 +21,8 @@ class _DetailClub extends State<DetailClub> {
     } else {
       throw 'Unknown error, can\'t launch the URL.';
     }
-  }
-
+  } 
+  
   @override
   Widget build(BuildContext context) {
     Widget headers() {

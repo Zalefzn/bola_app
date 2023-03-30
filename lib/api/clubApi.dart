@@ -6,7 +6,7 @@ import 'package:soccer_app/model/clubModel.dart';
 class ClubApi {
   Future<List<ClubModel>> getClubs() async {
     var baseUrl =
-        'https://www.thesportsdb.com/api/v1/json/2/search_all_teams.php?l=English%20Premier%20League';
+        'https://www.thesportsdb.com/api/v1/json/3/search_all_teams.php?l=English%20Premier%20League';
 
     var headers = {
       'Content-Type': 'application/json',

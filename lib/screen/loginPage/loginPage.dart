@@ -116,7 +116,7 @@ class _LoginPage extends State<LoginPage> {
                         borderSide: BorderSide(color: buttonColor1)),
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(20))),
-              )
+              ),
             ],
           ),
         );

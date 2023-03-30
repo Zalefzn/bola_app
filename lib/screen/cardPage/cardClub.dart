@@ -35,7 +35,7 @@ class _ClubCard extends State<ClubCard> {
   getDataClub() async {
     await Provider.of<ClubProvider>(context, listen: false).getClub();
   }
-
+  
   @override
   Widget build(BuildContext context) {
     SizeConfig().init(context);
